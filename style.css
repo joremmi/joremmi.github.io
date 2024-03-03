@@ -1,3 +1,11 @@
+*::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    scrollbar-width: none;
+}
+
 .ropa-sans-regular {
     font-family: "Ropa Sans", sans-serif;
     font-weight: 400;
