@@ -462,10 +462,10 @@ body {
 
 .skill-container {
     display: flex;
-    gap: 2pc;
+    column-gap: 4pc;
     flex-wrap: wrap;
-    width: 70vw;
-    padding: 3pc;
+    width: 30vw;
+    padding: 1pc 3pc;
     margin-bottom: -7pc;
     margin-left: 8pc;
     background: #0f101e;
