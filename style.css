@@ -182,8 +182,9 @@ body {
 }
 
 .panel {
-    width: 40%;
+    max-width: 40%;
     display: flex;
+    min-width: 20%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -230,7 +231,7 @@ body {
 #education .box {
     height: 85%;
     width: max-content;
-    font-size: 1em;
+    font-size: 1.3em;
     padding: 1pc;
     font-family: monospace;
     margin: 1pc;
@@ -297,7 +298,9 @@ body {
     border: 1px solid #3f51b5;
     display: flex;
     padding: 2pc 4pc;
+    color: cadetblue;
     border-radius: 1pc;
+    font-size: 0.9em;
     margin-left: 10pc;
 }
 
@@ -315,7 +318,7 @@ body {
 .resume-text {
     padding: 0 4pc 0 0;
     width: 50%;
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 
@@ -442,13 +445,13 @@ body {
     width: 100%;
     height: 100%;
     filter: opacity(0.25);
-    background: local;
-    background-image: url(/gifs/gif.gif);
-    transform: translateY(-4pc);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .skill img {
-    height: 5pc;
+    height: 7pc;
     width: auto;
     margin-top: 2pc;
 }
@@ -457,14 +460,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 15%;
+    width: 20%;
+    gap: 4pc;
 }
 
 .skill-container {
     display: flex;
     column-gap: 4pc;
     flex-wrap: wrap;
-    width: 30vw;
+    width: max-content;
     padding: 1pc 3pc;
     margin-bottom: -7pc;
     margin-left: 8pc;
@@ -500,6 +504,7 @@ body {
 .contact-container {
     display: flex;
     margin-left: 8pc;
+    width: 65%;
     border-radius: 1pc;
     margin-bottom: -8pc;
     background: #0f101e;
