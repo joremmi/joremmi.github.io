@@ -243,8 +243,8 @@ body {
 }
 
 .image {
-    height: inherit;
-    width: 15pc;
+    height: 50%;
+    width: 10pc;
     margin: auto;
     border-radius: 1pc;
     background-position: center;
