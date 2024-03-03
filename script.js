@@ -12,6 +12,9 @@
             const link5 = document.getElementById('link5');
             const link6 = document.getElementById('link6');
 
+            const close = document.getElementById('close');
+
+
             link1.onclick = function() {
                 scrollToElement(summary);
             };
@@ -84,3 +87,9 @@ function blinkCursor() {
 typeSentence();
 // Start blinking cursor
 blinkCursor();
+
+
+close.onclick = function() {
+    const box = document.getElementById('alert-box');
+    box.style.display = 'none';
+};

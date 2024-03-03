@@ -17,7 +17,6 @@ body {
     margin: 0;
     padding: 0;
     color: #ffffff;
-
 }
 
 .section {
@@ -280,13 +279,14 @@ body {
 }
 
 .page {
-    width: 297mm;
+    width: max-content;
     height: fit-content;
     background-color: rgb(2, 11, 26);
     border: 1px solid #3f51b5;
     display: flex;
     padding: 2pc 4pc;
     border-radius: 1pc;
+    margin-left: 10pc;
 }
 
 @media print {
@@ -303,7 +303,7 @@ body {
 .resume-text {
     padding: 0 4pc 0 0;
     width: 50%;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 
@@ -462,12 +462,10 @@ body {
 }
 
 .contact-link {
-    display: flex;
-    padding: 3pc;
-    align-items: center;
-    justify-content: center;
-    height: 7pc;
-    width: 7pc;
+    margin: 1pc;
+    padding: 1pc;
+    height: 5pc;
+    width: 5pc;
     border-radius: 50%;
     display: flex;
     z-index: 2;
@@ -488,14 +486,29 @@ body {
 
 .contact-container {
     display: flex;
-    gap: 4pc;
-    padding: 3pc;
     margin-left: 8pc;
     border-radius: 1pc;
-    width: 56vw;
     margin-bottom: -8pc;
     background: #0f101e;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+
+.alert{
+    position: fixed;
+    background-color: rgb(250 0 0 / 22%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 15;
+    top: 0;
+    padding: 0 2pc 0 30pc;
+    right: 0;
+    left: 0;
+    height: 2pc;
+}
+
+#close:hover{
+    cursor: pointer;
 }
