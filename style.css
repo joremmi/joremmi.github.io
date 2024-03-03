@@ -229,7 +229,7 @@ body {
     background-color: #0f101e;
     border-radius: 10px;
     border: solid 1px #2200ff;
-    overflow: auto;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     transition: ease .5s !important;
