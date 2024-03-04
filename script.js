@@ -1,3 +1,6 @@
+// I Marmik Gelani, 000884216 certify that this material is my original work. No other person's work has been used without due acknowledgement. I have not made my work available to anyone else.
+ 
+
 const summary = document.getElementById('summary');
 const education = document.getElementById('education');
 const skills = document.getElementById('skills');
